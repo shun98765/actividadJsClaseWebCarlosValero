@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #d1f7d6; /* Verde pastel */
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor centrado */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #3a7d44; /* Verde más oscuro */
+}
+
+p {
+    margin-bottom: 10px;
+    color: #3a7d44;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #a4d4ae;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #e6ffe6; /* Fondo de input verde claro */
+}
+
+button {
+    background-color: #3a7d44;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #285c32;
+}
