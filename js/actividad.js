@@ -10,7 +10,8 @@ const actividad = (num1, num2, num3) => {
                     : "Ninguno de los números es igual";
 };
 
-document.getElementById('Form').addEventListener('submit', function(e) {
+document.getElementById('form').addEventListener('submit', function(e) {
+    e.preventDefault(); // Evita el comportamiento predeterminado de recargar la página
 
     const num1 = parseFloat(document.getElementById('numUno').value);
     const num2 = parseFloat(document.getElementById('numDos').value);
