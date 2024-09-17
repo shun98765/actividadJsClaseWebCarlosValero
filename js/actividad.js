@@ -2,11 +2,11 @@ const actividad = (num1, num2, num3) => {
     let res = num1 === num2 && num1 === num3 
         ? "Todos los números son iguales"
         : num1 === num2 
-            ? "num1 es igual a num2"
+            ? `El número "a" es igual a número "b"`
             : num1 === num3 
-                ? "num1 es igual a num3"
+                ? `El número "a" es igual a número "c"`
                 : num2 === num3 
-                    ? "num2 es igual a num3"
+                    ? `El número "b" es igual a número "c"`
                     : "Ninguno de los números es igual";
     let mayor = Math.max(num1, num2, num3);
     res += ` y el número mayor es ${mayor}`;
