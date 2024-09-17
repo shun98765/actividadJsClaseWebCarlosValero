@@ -1,5 +1,5 @@
 const actividad = (num1, num2, num3) => {
-    return num1 === num2 && num1 === num3 
+    let res = num1 === num2 && num1 === num3 
         ? "Todos los números son iguales"
         : num1 === num2 
             ? "num1 es igual a num2"
@@ -8,6 +8,11 @@ const actividad = (num1, num2, num3) => {
                 : num2 === num3 
                     ? "num2 es igual a num3"
                     : "Ninguno de los números es igual";
+    let mayor = Math.max(num1, num2, num3);
+    res += ` y el número mayor es ${mayor}`;
+
+    return res;
+
 };
 
 document.getElementById('form').addEventListener('submit', function(e) {
